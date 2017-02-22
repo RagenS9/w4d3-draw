@@ -5,7 +5,7 @@ enableDrawing();
 
 function enableDrawing() {
 // 1. MouseEvent name that fires when you hold your mouse button down.
-// btw . . . I like this activity a lot more with mousemove instead of click. But you said it had to be an event that happened with a mouse click, so here you go. 
+// btw . . . I like this activity a lot more with mousemove instead of click. But you said it had to be an event that happened with a mouse click, so here you go. Found things to use with mouse here: https://www.w3schools.com/jsref/dom_obj_event.asp 
     document.addEventListener('click', function(e) { console.log(e)
 // 2. Random number from 0 - 255, rounded.
         var red = Math.ceil(Math.random() *255);
